@@ -1,7 +1,7 @@
 a,n = (input()).split()
 a= int(a)
 n= int(n)
-for i in range(a,n):
+for i in range(a+1,n):
   temp = i
   s = 0
   while(temp>0):
