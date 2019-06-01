@@ -1,5 +1,6 @@
 a = input()
-if str.isdigit(a):
-	print("yes")
-else:
+try:
+	if(float(a)):
+		print("yes")
+except:
 	print("no")
