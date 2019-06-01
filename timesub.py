@@ -1,0 +1,5 @@
+a = list(map(int,input().split()))
+b = list(map(int,input().split()))
+hour = abs(a[0]-b[0])
+minut = abs(a[1]-b[1])
+print(hour,minut)
