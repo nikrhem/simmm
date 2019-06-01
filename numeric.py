@@ -1,6 +1,5 @@
 a = input()
-try:
-	if(float(a)):
-		print("yes")
-except:
+if(a.isnumeric()):
+	print("yes")
+else:
 	print("no")
