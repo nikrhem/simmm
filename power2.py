@@ -1,5 +1,8 @@
 n = int(input())
-for i in range(0,n):
-	if((2**i)>n):
-		print(2**i)
-		break
+if n==1:
+	print(n*1)
+else:
+	for i in range(0,n):
+		if((2**i)>n):
+			print(2**i)
+			break
