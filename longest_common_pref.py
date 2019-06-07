@@ -9,4 +9,4 @@ for i in zip(*arr):
         l.append(i[0])
     else:
         break
-print(''.join(H))
+print(''.join(l))
