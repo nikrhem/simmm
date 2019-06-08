@@ -8,5 +8,8 @@ for i in range(s):
 		if arr[i]==arr[j] and arr[i] not in rep:
 			rep.append(arr[i])
 rep.sort()
-rep = [str(x) for x in rep]
-print(" ".join(rep))
+if len(rep)!=0:
+	rep = [str(x) for x in rep]
+	print(" ".join(rep))
+else:
+	print("unique")
