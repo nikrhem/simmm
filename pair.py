@@ -1,4 +1,4 @@
 n = int(input())
 w = (n*(n-1)/2)
-int(w)
+w = int(w)
 print(w)
