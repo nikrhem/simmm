@@ -1,0 +1,2 @@
+pot=input()
+print(pot+'.')
