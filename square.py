@@ -1,5 +1,8 @@
+import math
 n,m = map(int,input().split())
-if n==m:
+num = n*m
+r = math.sqrt(num)
+if (r)**2==num:
 	print("yes")
 else:
 	print("no")
