@@ -8,6 +8,6 @@ while i<len(a)-1:
 		count+=1
 		i+=1
 	if count>p:
-			p = count
+		p = count
 	i+=1
 print(p+1)
